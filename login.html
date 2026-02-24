@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="servers" href="servers.html">
+  <link rel="icon" href="https://i.imgur.com/l7TrD3o.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <div class="login-container"> 
+        <div class ="card1">
+
+        <form id="loginForm"> 
+  
+                
+                    <h2><i class="fas fa-door-open" style="margin-right: 10px;"></i>Login Admin</h2>
+                    <br>
+                    <p>Accedi come amministratore per gestire l'apparato dei server!</p>
+                    <br>
+                    <div class="input-box">
+                        <i class="fas fa-user"></i>
+            <input type="text" id="username" placeholder="Username" required>
+                    </div>
+            <br>
+            <br> 
+            <div class="input-box">
+                <i class="fas fa-lock"></i>
+            <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <br>
+            <br> 
+             <button class="copy1-btn" type="sumbit"><em>Login</em></button>
+             <br>
+            <button type="button" class="copy1-btn" onclick="window.location.href='index.html'"> <em>Home</em> </button>
+            </div>
+
+            
+        </form> <p id="error" class="error"></p> 
+        <br>
+        <br>
+        <p><em></em></p>
+    </div>
+
+    <p id="error" style="color:red;"></p>
+
+
+    <footer>
+        <p>&copy; 2026 Egg Corporation. Costruendo mondi, un uovo alla volta.</p>
+		<br>
+		<br>
+		<p> Developed by: .lordhex0r. & luca._.000</p>
+    </footer>
+
+
+    
+
+<script>
+document.getElementById("loginForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    const validUser = "Adm!EggCorp.1";
+    const validPass = "eggCorporationAdminAccess1";
+
+    const user = document.getElementById("username").value;
+    const pass = document.getElementById("password").value;
+
+    if (user === validUser && pass === validPass) {
+        window.location.href = "admin.html"; // Vai alla pagina admin
+    } else {
+        document.getElementById("error").textContent = "Credenziali errate.";
+    }
+});
+</script>
+
+</body>
+</html>

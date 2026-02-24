@@ -1,0 +1,465 @@
+<!DOCTYPE HTML>
+<html lang="it">
+
+<head>
+<meta charset="UTF-8">
+<title> Egg Corporation - Home </title>
+  <link rel="stylesheet" href="style1.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="servers" href="servers.html">
+  <link rel="icon" href="https://i.imgur.com/l7TrD3o.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<!-- © -->
+
+<body onload="initSite()">
+
+<div id="egg-loader">
+    <div class="egg-spinner">🥚</div>
+    <div class="loading-text">STO SCHIUDENDO LE UOVA...</div>
+</div>
+
+    <nav>
+		<div class="logo" id="logoEgg" onclick="spinLogo()">🥚 EGG <span>CORP.</span></div>
+        <div class="nav-links">
+            <a href="#servers">Mondi</a>
+            <a href="#gallery">Eventi</a>
+			<a href="#servizi">Servizi</a>
+            <a href="#staff">Staff</a>
+            <a href="#faq">FAQ</a>
+        </div>
+<div style="display: flex; gap: 15px;">
+
+    <a href="login.html" class="cta-btn cta-outline" style="padding:8px 20px; font-size: 0.9rem;">ADMIN AREA</a>
+    <a href="mailto:ragexofficialteam@gmail.com" class="cta-btn" style="padding: 8px 20px; font-size: 0.9rem;">CONTATTACI</a>
+</div>
+    </nav>
+
+
+
+    <header>
+        <h1 data-text="EGG CORPORATION">&copy EGG CORPORATION</h1>
+
+            <div class="lcc">
+        <a class="prezzi-link" href="chisiamo.html">Chi siamo</a>
+        <a class="prezzi-link" href="partner.html">Partner</a>
+        <a class="prezzi-link disabled-link" href="">Lavora con noi (ND)</a>
+        <a class="prezzi-link disabled-link" href="">Supporto & Regolamento (ND)</a>
+    </div>
+        <p style="color: #aaa; margin-bottom: 25px; margin-top:50px; font-size: 1.2rem; max-width: 600px;">Costruiamo mondi, un <code>uovo</code> alla volta.</p>
+
+
+
+        <div class="hero-stats">
+            <div class="stat-box">
+                <span class="stat-number" id="stat1">0</span>
+                <span class="stat-label">Membri</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number" id="stat2">0</span>
+                <span class="stat-label">Online</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number" id="stat3">0</span>
+                <span class="stat-label">Eventi</span>
+            </div>
+        </div>
+
+        <div>
+            <a href="#servers" class="cta-btn cta-outline">I SERVER</a>
+            <a href="https://discord.gg/xedXq3z8jY" class="cta-btn">ENTRA ORA</a>
+        </div>
+    </header>
+
+	<section id="primopiano">
+	<h2 class="section-title">IN PRIMO <span>PIANO</span></h2>
+	<div class="servers-grid">
+	<div class="card">
+	<div class="card-icon"><i class="fa-solid fa-lock-open"></i></div>
+	<h3>Novità: EGG SECURITY</h3>
+	<p>Rimani in sicurezza con egg! Impara come tenerti al sicuro tramite i nostri corsi e <b> fatti proteggere </b> dal nostro staff! Acquisisci una tua identità digitale e proteggila con noi!</p>
+	<button class="copy-btn" style="cursor: not-allowed; border-color: #333; color: #555;">ARRIVERA' PRESTO...</button>
+	</div>
+	
+	 <div class="card">
+     <div class="card-icon"><i class="fas fa-cube"></i></div>
+      <h3>Novità: EggMC</h3>
+     <p>Server <strong>Minecraft</strong> Survival & PvP. Economia, claim e zero lag. Versione 1.20+.</p>
+      <button class="copy-btn" style="cursor: not-allowed; border-color: #333; color: #555;">ARRIVERA' PRESTO...</button>
+     </div>
+	</div>
+	</section>
+
+    <section id="servers">
+        <h2 class="section-title">I NOSTRI <span>MONDI</span></h2>
+        <div class="servers-grid">
+            <div class="card">
+                <div class="card-icon"><i class="fas fa-taxi"></i></div>
+                <h3>EggRP</h3>
+                <p>Il miglior Roleplay su <strong>Emergency Hamburg</strong>. Simula la vita reale! Entra nell'esperienza RolePlay più avvincente di sempre!.</p>
+                <button class="copy-btn" onclick="copyText('2u30nuzy')">COPIA CODICE SERVER</button>
+            </div>
+            <div class="card" style="opacity: 0.7;">
+                <div class="card-icon"><i class="fas fa-question"></i></div>
+                <h3>Coming Soon</h3>
+                <p>Un'altro uovo sta per schiudersi. Rimani sintonizzato sul Discord.</p>
+                <button class="copy-btn" style="cursor: not-allowed; border-color: #333; color: #555;">PRESTO DISPONIBILE 👀</button>
+            </div>
+        </div>
+    </section>
+<br>
+    <section id="gallery">
+		<div>
+		<h3 class="section-title"> EVENTI <span>IMPORTANTI</span> </h2>
+		</div>
+		<br>
+        
+        <div class="card">
+		  <div class="card-icon"><i class="fas fa-calendar"></i></div>
+		  <h3> 📍 Annuncio ufficiale EGG CORP. </h3>
+		  <p> <code> <b> Data:</b> 28/02/2026</code> </p>
+		  <p> <code> <b> Firma:</b> team founder, EGG CORP.</code> </p>
+		  <br>
+		  <p>  Rilasceremo ufficialmente il nostro progetto: EGG CORPORATION!  Schiudi, friggi e mangia uova con noi. Fallo con stile, però! </p>
+        </div>
+        <br>
+		<div class="card">
+		<div class="card-icon"><i class="fas fa-calendar"></i></div>
+		<h3> 📍 Rilascio ufficiale server EGG MC </h3>
+		<p> <code> <b> Data:</b> non definita</code> </p>
+		<p> <code> <b> Firma:</b> co-ceo & ceo, EGG CORP.</code> </p>
+		<br>
+		<p> Il server minecraft è in arrivo! Preparati anche tu ad un esperienza <b> unica. </b>Sogna con noi, sogna con EGG! </p>
+		</div>
+        <br>
+		<div class="card">
+		<div class="card-icon"><i class="fas fa-question-circle"></i></div>
+		<h3> 👀 Coming soon..... </h3>
+		<p> <code> <b> Data:</b> attualmente non disponibile</code> </p>
+		<p> <code> <b> Firma:</b> team founder, EGG CORP.</code> </p>
+		<br>
+		<br>
+		<p> un'altra avventura..... Cosa potrà mai essere? 🤔 </p>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="server-grid">
+		<div>
+		<h2 class="section-title"> EVENTI <span>SECONDARI </span></h2>
+        <p style="text-align: center;">Per adesso non ci sono eventi secondari. Resta aggiornato nel caso escano fuori!</p>
+		</div>
+		<br>
+		
+		</div>
+		</div>
+    </section>
+	
+<section id="servizi">
+  <h2 class="section-title">I NOSTRI <span>SERVIZI</span></h2>
+
+
+      <div class="servers-grid">
+        <div class="card">
+        <div class="card-icon"><i class="fas fa-code"></i></div>
+        <h3>Web Development</h3>
+        <p>Hai bisogno di creare un sito web ma non sai da dove iniziare? Offriamo servizi di <strong>Web Development</strong> rivolti a tutti! Il tempo medio per la divulgazione è di circa 2 settimane (senza HOST).</p>
+        <a href="https://discord.gg/xedXq3z8jY" class="cta-btn">Scopri di più</a>
+      </div>
+
+      <div class="card">
+        <div class="card-icon"><i class="fab fa-discord"></i></div>
+        <h3>Server Building</h3>
+        <p>Hai bisogno di un server discord per dedicarti alle tue passioni oppure al tuo lavoro? Sei nel posto giusto! Offriamo servizi di <strong>creazione server</strong> partendo dalla base e te lo riconsegneremo pronto al 100%, come un uovo fritto!</p>
+        <a href="https://discord.gg/xedXq3z8jY" class="cta-btn">Scopri di più</a>
+      </div>
+
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-lock"></i></div>
+        <h3>Cybersecurity</h3>
+        <p>Nei nostri server sarai sempre <b>al sicuro!</b> Con i nostri bot, interamente creati e sviluppati dal team developers, garantiamo una sicurezza maggiore all'interno dei canali. Utilizziamo funzionalità come il <code>role-lock</code>, l'<code>anti-nuke</code> e molto altro!</p>
+        <a href="https://discord.gg/xedXq3z8jY" class="cta-btn">Scopri di più</a>
+      </div>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="servers-grid">
+
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-camera"></i></div>
+        <h3>Branding creation</h3>
+        <p>Non sei esperto nella creazione di loghi per la tua attività e desideri una mano? Il nostro team ti affiancherà nella creazione del logo, in base alle tue scelte. Partendo dalla <b>tua</b> idea, la realizzeremo per renderla reale!</p>
+        <a href="https://discord.gg/xedXq3z8jY" class="cta-btn">Scopri di più</a>
+      </div>
+
+      <div class="card">
+        <div class="card-icon"><i class="fas fa-video"></i></div>
+        <h3>Video editing</h3>
+        <p>Possiamo editare i tuoi video! Che siano TikTok, YouTube, reel, spezzoni di live o contenuti pubblicitari, ci pensiamo noi!</p>
+        <a href="https://discord.gg/xedXq3z8jY" class="cta-btn">Scopri di più</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+	
+
+    <section id="staff">
+        <h2 class="section-title">IL NOSTRO <span>TEAM</span></h2>
+        <div class="staff-grid">
+            
+               <div class="staff-card">
+                <img src="https://i.imgur.com/p0CygqT.png" alt="User">
+                <h3> .lordhex0r.</h3>
+                <span class="staff-role">CEO / DEV.</span>
+            </div>
+        
+            
+           
+            <div class="staff-card">
+                <img src="https://i.imgur.com/JNsfzZI.png" alt="User">
+                <h3>luca._.000</h3>
+                <span class="staff-role">CEO / DEV.</span>
+            </div>
+            
+            
+             <div class="staff-card">
+               <img src="https://i.imgur.com/eUL6RCj.png" alt="User">
+               <h3>gennar1</h3>
+            <span class="staff-role">CEO</span>
+            </div>
+        
+        
+			<div class="staff-card">
+                <img src="https://i.imgur.com/VoRvv8i.png" alt="User">
+                <h3>lorytunes</h3>
+                <span class="staff-role">CEO</span>
+            </div>
+        </div>
+    </section>
+	
+	
+	<section id="calltoaction">
+	<h2 class="section-title">I NOSTRI <span>SOCIAL</span> </h2>
+<div class="social-iconse">
+    <a href="https://discord.gg/xedXq3z8jY" target="">
+        <i class="fa-brands fa-discord"></i>
+    </a>
+
+    <a href="https://www.twitch.tv/eggcorporation" target="">
+        <i class="fa-brands fa-twitch"></i>
+    </a>
+
+    <a href="https://www.tiktok.com/@eggcorporation1" target="">
+        <i class="fa-brands fa-tiktok"></i>
+    </a>
+
+    <a href="https://www.instagram.com/eggcorporation/" target="">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+</div>
+
+	</section>
+
+    <section id="faq">
+        <h2 class="section-title">DOMANDE <span>FREQUENTI (FAQ)</span></h2>
+        <div class="accordion">
+            <div class="accordion-header" onclick="toggleAcc(this)">Come posso entrare nei server di gioco? <i class="fas fa-chevron-down"></i></div>
+            <div class="accordion-content"><p>Clicca sui pulsanti "Copia" nella sezione Server e incollali nel gioco rispettivo (Minecraft o Roblox).</p></div>
+        </div>
+        <div class="accordion">
+            <div class="accordion-header" onclick="toggleAcc(this)">Come entro nel team staff? <i class="fas fa-chevron-down"></i></div>
+            <div class="accordion-content"><p>Controlla il canale #annunci nel nostro server Discord per le ultime aperture. Esse avvengono frequentemente a periodi definiti</p></div>
+        </div>
+        <div class="accordion">
+            <div class="accordion-header" onclick="toggleAcc(this)">Il server Minecraft supporta Bedrock? <i class="fas fa-chevron-down"></i></div>
+            <div class="accordion-content"><p>Attualmente supportiamo Java Edition, ma stiamo lavorando per aggiungere il supporto cross-platform.</p></div>
+        </div>
+		<div class="accordion">
+            <div class="accordion-header" onclick="toggleAcc(this)">Come posso aiutare la community? <i class="fas fa-chevron-down"></i></div>
+            <div class="accordion-content"><p>Già far parte della community, per noi, è un aiuto enorme!! Se desideri supportarci, potrai farlo acquistando i vantaggi VIP nei 
+			nostri server (dove preferisci), potenziando i nostri server oppure acquistando uno dei nostri servizi!.</p></div>
+        </div>
+		<div class="accordion">
+            <div class="accordion-header" onclick="toggleAcc(this)">Quali sono le modalità di pagamento? <i class="fas fa-chevron-down"></i></div>
+            <div class="accordion-content"><p>I nostri servizi potranno essere pagati tramite paypal, oppure tramite boost al server discord principale. Supportiamo, inoltre,
+			il pagamento in <b>robux</b>. Nel nostro server principale è presente un listino prezzi dettagliato, dove potrai verificare tu stesso il prezzo!</p></div>
+        </div>
+				<div class="accordion">
+            <div class="accordion-header" onclick="toggleAcc(this)">Come posso contattarvi? <i class="fas fa-chevron-down"></i></div>
+            <div class="accordion-content"><p>Potrai contattarci tramite il nostro server ufficiale (aprendo un ticket), oppure direttamente alla nostra mail: <b> ragexofficialteam@gmail.com </b>
+			(attenzione: eventuali e-mail troll, verranno cestinate senza risposta)</p></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Egg Corporation. Costruendo mondi, un uovo alla volta.</p>
+		<br>
+		<br>
+		<p> Developed by: .lordhex0r. & luca._.000</p>
+        <div class="secret-pixel" onclick="triggerParty()" title="NON TOCCARE"></div>
+    </footer>
+
+    <div id="toast">Copiato!</div>
+
+    <script>
+        function copyText(txt) {
+            navigator.clipboard.writeText(txt);
+            var x = document.getElementById("toast");
+            x.innerText = "Copiato: " + txt;
+            x.className = "show";
+            setTimeout(()=> x.className = x.className.replace("show", ""), 3000);
+        }
+
+        function toggleAcc(element) {
+            var content = element.nextElementSibling;
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+                element.querySelector('i').style.transform = "rotate(0deg)";
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+                element.querySelector('i').style.transform = "rotate(180deg)";
+            }
+        }
+
+   function initSite() {
+            // Gestione Preloader
+            const loader = document.getElementById("egg-loader");
+            setTimeout(function() {
+                loader.classList.add("loader-hidden");
+                loader.addEventListener("transitionend", function() {
+                    loader.remove(); // Rimuove il loader dal DOM
+                    startStats(); // Avvia i contatori solo dopo il caricamento
+                });
+            }, 1500); // 1.5 secondi di attesa
+        }
+		
+	 function startStats() {
+            animateValue("stat1", 0, 200, 2000);
+            animateValue("stat2", 0, 150, 2000);
+            animateValue("stat3", 0, 5, 2000);
+        }
+
+        function animateValue(id, start, end, duration) {
+            var range = end - start;
+            var current = start;
+            var stepTime = Math.abs(Math.floor(duration / (range / 10))); 
+            var obj = document.getElementById(id);
+            var timer = setInterval(function() {
+                current += Math.ceil(range / 50);
+                if (current >= end) {
+                    current = end;
+                    clearInterval(timer);
+                    obj.innerHTML = current + "+";
+                } else {
+                    obj.innerHTML = current;
+                }
+            }, stepTime);
+        };
+
+        let clicks = 0;
+        function spinLogo() {
+            clicks++;
+            if(clicks === 5) {
+                const l = document.getElementById('logoEgg');
+                l.style.transition = "1s";
+                l.style.transform = "rotate(720deg) scale(1.5)";
+                l.style.color = "red";
+                setTimeout(() => {
+                    l.style.transform = "rotate(0deg) scale(1)";
+                    l.style.color = "";
+                    clicks = 0;
+                }, 1500);
+            }
+        };
+		
+		
+
+	document.addEventListener("DOMContentLoaded", () => {
+    const track = document.querySelector(".card-track");
+    const slides = document.querySelectorAll(".card-slide");
+    let index = 0;
+
+    function showSlide(i) {
+      const offset = -i * 100; // percentuale
+      track.style.transform = `translateX(${offset}%)`;
+    }
+
+    setInterval(() => {
+      index = (index + 1) % slides.length;
+      showSlide(index);
+    }, 4000); // 4 secondi
+  });
+  
+ 
+
+		
+        function triggerParty() {
+            document.body.classList.toggle('party-mode');
+            var x = document.getElementById("toast");
+            x.innerText = "🎉 ATTENZIONE: PIOGGIA DI UOVA! 🎉";
+            x.className = "show";
+            setTimeout(()=> x.className = x.className.replace("show", ""), 3000);
+
+            const emojis = ['🥚', '🍳', '🐣', '🐔', '💎'];
+            let rainInterval = setInterval(() => {
+                const egg = document.createElement('div');
+                egg.classList.add('egg-rain');
+                egg.innerText = emojis[Math.floor(Math.random() * emojis.length)];
+                egg.style.left = Math.random() * 100 + 'vw';
+                egg.style.animationDuration = (Math.random() * 2 + 1) + 's'; 
+                document.body.appendChild(egg);
+                setTimeout(() => egg.remove(), 3000);
+            }, 100);
+
+            setTimeout(() => {
+                clearInterval(rainInterval);
+                document.body.classList.remove('party-mode');
+            }, 5000);
+        };
+
+        const kCode = ['ArrowUp','ArrowUp','ArrowDown','ArrowDown','ArrowLeft','ArrowRight','ArrowLeft','ArrowRight','b','a'];
+        let kIdx = 0;
+        document.addEventListener('keydown', (e) => {
+            if (e.key === kCode[kIdx]) {
+                kIdx++;
+                if (kIdx === kCode.length) {
+                    triggerParty();
+                    kIdx = 0;
+                }
+            } else {
+                kIdx = 0;
+            }
+        });
+		
+        
+
+        // --- EASTER EGG F12 (CONSOLE LOG) ---
+        console.log(`%c
+  ______ _____ _____    _____ ____  _____  _____  
+ |  ____/ ____/ ____|  / ____/ __ \|  __ \|  __ \ 
+ | |__ | |  _| |  __  | |   | |  | | |__) | |__) |
+ |  __|| | |_ | | |_ | | |   | |  | |  _  /|  ___/ 
+ | |___| |__| | |__| | | |___| |__| | | \ \| |     
+ |______\_____|\_____|  \_____\____/|_|  \_\_|     
+        `, "color: #FFC300; font-weight: bold; font-family: monospace;");
+
+        console.log(
+            "%c STOP! ✋ %c\n\nSei uno sviluppatore? O un hacker della Egg Corp?\nSe sei qui per curiosare, benvenuto nel backstage! 🥚\nNon rompere le uova nel paniere però...",
+            "font-size: 50px; color: red; font-weight: bold; text-shadow: 2px 2px #000;",
+            "font-size: 16px; color: white; background: #222; padding: 10px; border-radius: 5px; line-height: 1.5;"
+        );
+    </script>
+</body>
+</html>
